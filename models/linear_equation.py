@@ -10,9 +10,8 @@ class LinearEquation():
     result: int
 
     @staticmethod
-    def Builder(equation:str):
+    def fromString(equation:str):
         return convert_str_to_linearequation(equation)
-
 
 
 
